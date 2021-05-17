@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Eduardo\\IdeaProjects\\untitled\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Eduardo\\IdeaProjects\\untitled\\androidApp\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Eduardo\\IdeaProjects\\untitled\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_list_item.xml.flat",
+        "source": "C:\\Users\\Eduardo\\IdeaProjects\\untitled\\androidApp\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Eduardo\\IdeaProjects\\untitled\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_fragment_post_list.xml.flat",
+        "source": "C:\\Users\\Eduardo\\IdeaProjects\\untitled\\androidApp\\src\\main\\res\\layout\\fragment_post_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Eduardo\\IdeaProjects\\untitled\\androidApp\\build\\intermediates\\res\\merged\\debug\\navigation_navi_graph.xml.flat",
+        "source": "C:\\Users\\Eduardo\\IdeaProjects\\untitled\\androidApp\\src\\main\\res\\navigation\\navi_graph.xml"
+    }
+]

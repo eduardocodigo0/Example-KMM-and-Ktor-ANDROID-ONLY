@@ -1,0 +1,8 @@
+me/eduardo/androidApp/databinding/FragmentPostListBinding.java
+ me.eduardo.androidApp.databinding.FragmentPostListBinding
+me/eduardo/androidApp/BuildConfig.java
+ me.eduardo.androidApp.BuildConfig
+me/eduardo/androidApp/databinding/ActivityMainBinding.java
+ me.eduardo.androidApp.databinding.ActivityMainBinding
+me/eduardo/androidApp/databinding/ListItemBinding.java
+ me.eduardo.androidApp.databinding.ListItemBinding
