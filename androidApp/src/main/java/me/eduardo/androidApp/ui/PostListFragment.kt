@@ -30,8 +30,6 @@ class PostListFragment : Fragment() {
         viewLifecycleOwner.lifecycle.addObserver(_vm)
 
         _vm.postList.observe(viewLifecycleOwner, Observer { posts ->
-            Log.d("KMM", "OBSERVOU ESSA PORRA")
-
             binding.rvPosts.apply {
                 adapter = PostListAdapter(posts)
             }

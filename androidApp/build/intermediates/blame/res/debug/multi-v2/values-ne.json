@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Eduardo\\IdeaProjects\\untitled\\androidApp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ne\\values-ne.xml",
+            "outputFile": "C:\\gitCoisas\\Example-KMM-and-Ktor-ANDROID-ONLY\\androidApp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ne\\values-ne.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Eduardo\\.gradle\\caches\\transforms-2\\files-2.1\\2007ba9701f79340e81be4b06502319c\\appcompat-1.2.0\\res\\values-ne\\values-ne.xml",

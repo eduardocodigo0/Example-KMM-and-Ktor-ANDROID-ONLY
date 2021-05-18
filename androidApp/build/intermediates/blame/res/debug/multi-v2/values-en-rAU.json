@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Eduardo\\IdeaProjects\\untitled\\androidApp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
+            "outputFile": "C:\\gitCoisas\\Example-KMM-and-Ktor-ANDROID-ONLY\\androidApp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Eduardo\\.gradle\\caches\\transforms-2\\files-2.1\\d01406c72555cd08b5c80851de572814\\navigation-ui-2.3.5\\res\\values-en-rAU\\values-en-rAU.xml",
