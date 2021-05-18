@@ -36,14 +36,15 @@ class PostListAdapter(val posts: List<PostEntity>, val setFavorite: suspend (Pos
 class PostListHolder(item: View): RecyclerView.ViewHolder(item) {
 
     private val binding = ListItemBinding.bind(item)
+    private val job = SupervisorJob()
+    private val coroutineContext = job + Dispatchers.IO
+    val EduardoScope = CoroutineScope(coroutineContext)
 
    fun bind(post: PostEntity, setFavorite: suspend (PostEntity) -> Boolean, isFavorite: suspend (Long) -> Boolean ){
         binding.tvPostId.text = post.id.toString()
         binding.tvPostTitle.text = post.title
 
-       val EduardoScope = CoroutineScope(SupervisorJob())
-
-       EduardoScope.launch(Dispatchers.IO) {
+       EduardoScope.launch{
             if(isFavorite(post.id.toLong())){
                 binding.ivFavorite.setColorFilter(Color.GREEN)
             }else{
@@ -52,7 +53,7 @@ class PostListHolder(item: View): RecyclerView.ViewHolder(item) {
         }
 
         binding.ivFavorite.setOnClickListener{
-            EduardoScope.launch(Dispatchers.IO) {
+            EduardoScope.launch {
                 setFavorite(post)
 
                 if(isFavorite(post.id.toLong())){
