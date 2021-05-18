@@ -5,6 +5,9 @@ plugins {
     id("com.android.library")
     id("kotlin-android-extensions")
     kotlin("plugin.serialization")
+    id("com.squareup.sqldelight")
+
+
 }
 
 group = "me.eduardo"
@@ -27,6 +30,7 @@ kotlin {
                 implementation("io.ktor:ktor-client-core:$kotlinVersion")
                 implementation("io.ktor:ktor-client-json:$kotlinVersion")
                 implementation("io.ktor:ktor-client-serialization:$kotlinVersion")
+                implementation("com.squareup.sqldelight:runtime:1.4.2")
             }
 
         }
@@ -44,6 +48,7 @@ kotlin {
                 implementation("io.ktor:ktor-client-serialization:$kotlinVersion")
                 implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9")
                 implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.2.0")
+                implementation("com.squareup.sqldelight:android-driver:1.4.2")
             }
         }
         val androidTest by getting {
@@ -66,6 +71,7 @@ android {
     }
 }
 
+
 val packForXcode by tasks.creating(Sync::class) {
     group = "build"
     val mode = System.getenv("CONFIGURATION") ?: "DEBUG"
@@ -80,3 +86,11 @@ val packForXcode by tasks.creating(Sync::class) {
 }
 
 tasks.getByName("build").dependsOn(packForXcode)
+
+sqldelight {
+    database("FavoriteDB") {
+        packageName = "me.eduardo.sqldelight.db"
+        sourceFolders = listOf("sqldelight")
+
+    }
+}

@@ -17,10 +17,21 @@
             app:layout_constraintTop_toTopOf="parent"/>
     <TextView
             android:id="@+id/tv_post_title"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:text="Post Title "
             android:layout_height="wrap_content"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/iv_favorite"
             app:layout_constraintTop_toBottomOf="@id/tv_post_id"/>
+
+    <ImageView
+            android:id="@+id/iv_favorite"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_favorite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

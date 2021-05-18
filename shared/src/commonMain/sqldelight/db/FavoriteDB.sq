@@ -1,0 +1,8 @@
+CREATE TABLE favorites (
+    id INTEGER NOT NULL PRIMARY KEY
+);
+
+insertFavorite: INSERT INTO favorites (id) VALUES (?);
+deleteFavorite: DELETE FROM favorites WHERE id = ?;
+
+isFavorite: SELECT * FROM favorites WHERE id = ?;

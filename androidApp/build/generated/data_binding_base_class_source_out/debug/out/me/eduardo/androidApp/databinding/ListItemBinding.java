@@ -4,6 +4,7 @@ package me.eduardo.androidApp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -19,14 +20,18 @@ public final class ListItemBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final ImageView ivFavorite;
+
+  @NonNull
   public final TextView tvPostId;
 
   @NonNull
   public final TextView tvPostTitle;
 
-  private ListItemBinding(@NonNull ConstraintLayout rootView, @NonNull TextView tvPostId,
-      @NonNull TextView tvPostTitle) {
+  private ListItemBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView ivFavorite,
+      @NonNull TextView tvPostId, @NonNull TextView tvPostTitle) {
     this.rootView = rootView;
+    this.ivFavorite = ivFavorite;
     this.tvPostId = tvPostId;
     this.tvPostTitle = tvPostTitle;
   }
@@ -58,6 +63,12 @@ public final class ListItemBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.iv_favorite;
+      ImageView ivFavorite = rootView.findViewById(id);
+      if (ivFavorite == null) {
+        break missingId;
+      }
+
       id = R.id.tv_post_id;
       TextView tvPostId = rootView.findViewById(id);
       if (tvPostId == null) {
@@ -70,7 +81,7 @@ public final class ListItemBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ListItemBinding((ConstraintLayout) rootView, tvPostId, tvPostTitle);
+      return new ListItemBinding((ConstraintLayout) rootView, ivFavorite, tvPostId, tvPostTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

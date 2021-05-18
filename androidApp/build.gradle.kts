@@ -4,7 +4,9 @@ plugins {
     id("kotlin-android-extensions")
     id("kotlin-android")
     id("kotlin-kapt")
+
 }
+
 
 group = "me.eduardo"
 version = "1.0-SNAPSHOT"
