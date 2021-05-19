@@ -1,20 +1,22 @@
 package me.eduardo.androidApp.adapter
 
 import android.graphics.Color
-import android.graphics.PorterDuff
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.content.res.ResourcesCompat.getColor
+import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
-import com.google.android.material.color.MaterialColors.getColor
 import kotlinx.coroutines.*
 import me.eduardo.androidApp.R
 import me.eduardo.androidApp.databinding.ListItemBinding
 import me.eduardo.shared.Entity.PostEntity
-import org.w3c.dom.Entity
 
-class PostListAdapter(val posts: List<PostEntity>, val setFavorite: suspend (PostEntity) -> Boolean, val isFavorite: suspend (Long) -> Boolean): RecyclerView.Adapter<PostListHolder>() {
+
+class PostListAdapter(
+    val posts: List<PostEntity>,
+    val changeColor: (Long, ImageView) -> Unit,
+    val setFavorite: (PostEntity, ImageView) -> Unit
+) : RecyclerView.Adapter<PostListHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PostListHolder {
         val view = LayoutInflater.from(parent.context)
             .inflate(R.layout.list_item, parent, false)
@@ -24,7 +26,7 @@ class PostListAdapter(val posts: List<PostEntity>, val setFavorite: suspend (Pos
 
     override fun onBindViewHolder(holder: PostListHolder, position: Int) {
 
-        holder.bind(posts[position], setFavorite, isFavorite)
+        holder.bind(posts[position], changeColor, setFavorite)
     }
 
     override fun getItemCount(): Int {
@@ -33,36 +35,20 @@ class PostListAdapter(val posts: List<PostEntity>, val setFavorite: suspend (Pos
 }
 
 
-class PostListHolder(item: View): RecyclerView.ViewHolder(item) {
-
+class PostListHolder(item: View) : RecyclerView.ViewHolder(item) {
     private val binding = ListItemBinding.bind(item)
-    private val job = SupervisorJob()
-    private val coroutineContext = job + Dispatchers.IO
-    val EduardoScope = CoroutineScope(coroutineContext)
 
-   fun bind(post: PostEntity, setFavorite: suspend (PostEntity) -> Boolean, isFavorite: suspend (Long) -> Boolean ){
+    fun bind(
+        post: PostEntity,
+        changeColor: (Long, ImageView) -> Unit,
+        setFavorite: (PostEntity, ImageView) -> Unit
+    ) {
         binding.tvPostId.text = post.id.toString()
         binding.tvPostTitle.text = post.title
 
-       EduardoScope.launch{
-            if(isFavorite(post.id.toLong())){
-                binding.ivFavorite.setColorFilter(Color.GREEN)
-            }else{
-                binding.ivFavorite.setColorFilter(Color.GRAY)
-            }
-        }
+        changeColor(post.id.toLong(), binding.ivFavorite)
 
-        binding.ivFavorite.setOnClickListener{
-            EduardoScope.launch {
-                setFavorite(post)
-
-                if(isFavorite(post.id.toLong())){
-                    binding.ivFavorite.setColorFilter(Color.GREEN)
-                }else{
-                    binding.ivFavorite.setColorFilter(Color.GRAY)
-                }
-            }
-        }
+        binding.ivFavorite.setOnClickListener { setFavorite(post, binding.ivFavorite) }
     }
 
 }
