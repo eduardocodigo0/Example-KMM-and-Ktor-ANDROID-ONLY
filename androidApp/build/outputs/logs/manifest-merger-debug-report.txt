@@ -5,6 +5,7 @@ INJECTED from C:\gitCoisas\Example-KMM-and-Ktor-ANDROID-ONLY\androidApp\src\main
 INJECTED from C:\gitCoisas\Example-KMM-and-Ktor-ANDROID-ONLY\androidApp\src\main\AndroidManifest.xml:2:1-16:12
 INJECTED from C:\gitCoisas\Example-KMM-and-Ktor-ANDROID-ONLY\androidApp\src\main\AndroidManifest.xml:2:1-16:12
 MERGED from [androidx.databinding:viewbinding:4.2.1] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\68bec83def95a992eb0cd792bed7fc4f\viewbinding-4.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\7dea56e51a491204018151532147b619\leakcanary-android-2.7\AndroidManifest.xml:17:1-28:12
 MERGED from [:shared] C:\gitCoisas\Example-KMM-and-Ktor-ANDROID-ONLY\shared\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d6bd1869db6b5e29e612edbcf45c06fd\navigation-ui-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\aa0db61de04299566792503141c30a94\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
@@ -17,10 +18,17 @@ MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\Eduardo\.gradle\cach
 MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\41aab8719c4453a9f8b37ca62783f31f\activity-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\c9d7002529a9863125a0fce281443a9e\lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\5dc2b1362c0808e80a9441fe41170205\lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:17:1-76:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\6a1e1a6d02890c115b068a2da2e3ce96\leakcanary-object-watcher-android-androidx-2.7\AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\30c17f3dd90aca1477e819acb5fa1fbd\leakcanary-object-watcher-android-support-fragments-2.7\AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\88dbeaa660e10fdcd27c10cd390b850b\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:2:1-15:12
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\f2c9f0e7e47ec537f4e68803fea82ace\plumber-android-2.7\AndroidManifest.xml:2:1-15:12
 MERGED from [com.squareup.sqldelight:android-driver:1.4.2] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\449f4b98b097ee9e9f29d30c9089459e\android-driver-1.4.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\17aeea2fd40fd2f660728451d9988040\navigation-common-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\6856283d00ba9f3a9a3c7e674b050e57\core-ktx-1.1.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\559fc1306fc795d51e073598fda32ae5\lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.leakcanary:leakcanary-android-utils:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\6838a08f446b9f6d5b1b5c1d1af9d748\leakcanary-android-utils-2.7\AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.curtains:curtains:1.0.1] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\efe319d578a128ac25ab32833d5ee7eb\curtains-1.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d1747439ae96d543e835751d02fda0fa\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\c7108c7670c96d368dd309e0bd1654be\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\430cfbdc4bda2331129afa12d918c30a\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -89,10 +97,18 @@ ADDED from C:\gitCoisas\Example-KMM-and-Ktor-ANDROID-ONLY\androidApp\src\main\An
 		ADDED from C:\gitCoisas\Example-KMM-and-Ktor-ANDROID-ONLY\androidApp\src\main\AndroidManifest.xml:4:22-76
 application
 ADDED from C:\gitCoisas\Example-KMM-and-Ktor-ANDROID-ONLY\androidApp\src\main\AndroidManifest.xml:5:5-15:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\7dea56e51a491204018151532147b619\leakcanary-android-2.7\AndroidManifest.xml:22:5-26:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\7dea56e51a491204018151532147b619\leakcanary-android-2.7\AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\1b7e913eab1f51e34b51805bff30ebad\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\1b7e913eab1f51e34b51805bff30ebad\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\c16ab3acd782bbb75d43cd85cd126f29\constraintlayout-2.0.2\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\c16ab3acd782bbb75d43cd85cd126f29\constraintlayout-2.0.2\AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:28:5-74:19
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:28:5-74:19
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\88dbeaa660e10fdcd27c10cd390b850b\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\88dbeaa660e10fdcd27c10cd390b850b\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\f2c9f0e7e47ec537f4e68803fea82ace\plumber-android-2.7\AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\f2c9f0e7e47ec537f4e68803fea82ace\plumber-android-2.7\AndroidManifest.xml:7:5-13:19
 MERGED from [androidx.core:core:1.3.1] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\8dca80c2d418b923623496afcd2cbd81\core-1.3.1\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.3.1] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\8dca80c2d418b923623496afcd2cbd81\core-1.3.1\AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\2f3765d53221bde026e8d9e507b8dac0\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
@@ -125,6 +141,8 @@ INJECTED from C:\gitCoisas\Example-KMM-and-Ktor-ANDROID-ONLY\androidApp\src\main
 INJECTED from C:\gitCoisas\Example-KMM-and-Ktor-ANDROID-ONLY\androidApp\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:4.2.1] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\68bec83def95a992eb0cd792bed7fc4f\viewbinding-4.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:viewbinding:4.2.1] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\68bec83def95a992eb0cd792bed7fc4f\viewbinding-4.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\7dea56e51a491204018151532147b619\leakcanary-android-2.7\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\7dea56e51a491204018151532147b619\leakcanary-android-2.7\AndroidManifest.xml:20:5-44
 MERGED from [:shared] C:\gitCoisas\Example-KMM-and-Ktor-ANDROID-ONLY\shared\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:shared] C:\gitCoisas\Example-KMM-and-Ktor-ANDROID-ONLY\shared\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d6bd1869db6b5e29e612edbcf45c06fd\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
@@ -149,6 +167,16 @@ MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Eduardo\.g
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\c9d7002529a9863125a0fce281443a9e\lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\5dc2b1362c0808e80a9441fe41170205\lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\5dc2b1362c0808e80a9441fe41170205\lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\6a1e1a6d02890c115b068a2da2e3ce96\leakcanary-object-watcher-android-androidx-2.7\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\6a1e1a6d02890c115b068a2da2e3ce96\leakcanary-object-watcher-android-androidx-2.7\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\30c17f3dd90aca1477e819acb5fa1fbd\leakcanary-object-watcher-android-support-fragments-2.7\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\30c17f3dd90aca1477e819acb5fa1fbd\leakcanary-object-watcher-android-support-fragments-2.7\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\88dbeaa660e10fdcd27c10cd390b850b\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\88dbeaa660e10fdcd27c10cd390b850b\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\f2c9f0e7e47ec537f4e68803fea82ace\plumber-android-2.7\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\f2c9f0e7e47ec537f4e68803fea82ace\plumber-android-2.7\AndroidManifest.xml:5:5-44
 MERGED from [com.squareup.sqldelight:android-driver:1.4.2] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\449f4b98b097ee9e9f29d30c9089459e\android-driver-1.4.2\AndroidManifest.xml:5:5-44
 MERGED from [com.squareup.sqldelight:android-driver:1.4.2] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\449f4b98b097ee9e9f29d30c9089459e\android-driver-1.4.2\AndroidManifest.xml:5:5-44
 MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\17aeea2fd40fd2f660728451d9988040\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
@@ -157,6 +185,10 @@ MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\Eduardo\.gradle\caches\trans
 MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\6856283d00ba9f3a9a3c7e674b050e57\core-ktx-1.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\559fc1306fc795d51e073598fda32ae5\lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\559fc1306fc795d51e073598fda32ae5\lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.leakcanary:leakcanary-android-utils:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\6838a08f446b9f6d5b1b5c1d1af9d748\leakcanary-android-utils-2.7\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-utils:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\6838a08f446b9f6d5b1b5c1d1af9d748\leakcanary-android-utils-2.7\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.curtains:curtains:1.0.1] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\efe319d578a128ac25ab32833d5ee7eb\curtains-1.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.curtains:curtains:1.0.1] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\efe319d578a128ac25ab32833d5ee7eb\curtains-1.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d1747439ae96d543e835751d02fda0fa\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d1747439ae96d543e835751d02fda0fa\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\c7108c7670c96d368dd309e0bd1654be\cardview-1.0.0\AndroidManifest.xml:20:5-44
@@ -249,3 +281,113 @@ INJECTED from C:\gitCoisas\Example-KMM-and-Ktor-ANDROID-ONLY\androidApp\src\main
 		INJECTED from C:\gitCoisas\Example-KMM-and-Ktor-ANDROID-ONLY\androidApp\src\main\AndroidManifest.xml
 		ADDED from C:\gitCoisas\Example-KMM-and-Ktor-ANDROID-ONLY\androidApp\src\main\AndroidManifest.xml
 		INJECTED from C:\gitCoisas\Example-KMM-and-Ktor-ANDROID-ONLY\androidApp\src\main\AndroidManifest.xml
+service#leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\7dea56e51a491204018151532147b619\leakcanary-android-2.7\AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\7dea56e51a491204018151532147b619\leakcanary-android-2.7\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\7dea56e51a491204018151532147b619\leakcanary-android-2.7\AndroidManifest.xml:24:13-67
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:23:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:24:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:26:22-74
+provider#leakcanary.internal.LeakCanaryFileProvider
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:29:9-37:20
+	android:grantUriPermissions
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:33:13-47
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:31:13-88
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:30:13-70
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:34:13-36:66
+	android:resource
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:36:17-63
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:35:17-67
+activity#leakcanary.internal.activity.LeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:39:9-44:66
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:42:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:41:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:44:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:43:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:40:13-69
+activity-alias#leakcanary.internal.activity.LeakLauncherActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:46:9-63:26
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:49:13-66
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:52:13-71
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:50:13-36
+	android:targetActivity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:53:13-79
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:51:13-52
+	android:banner
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:48:13-59
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:55:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:54:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:47:13-77
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:56:13-62:29
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:61:17-86
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:61:27-83
+activity#leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:65:9-71:68
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:69:13-82
+	android:excludeFromRecents
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:67:13-46
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:68:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:71:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:70:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:66:13-80
+receiver#leakcanary.internal.NotificationReceiver
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:73:9-77
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\d365cbcc9af8dec6fb9985ee7fabc7b3\leakcanary-android-core-2.7\AndroidManifest.xml:73:19-74
+provider#leakcanary.internal.AppWatcherInstaller$MainProcess
+ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\88dbeaa660e10fdcd27c10cd390b850b\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\88dbeaa660e10fdcd27c10cd390b850b\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:11:13-69
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\88dbeaa660e10fdcd27c10cd390b850b\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\88dbeaa660e10fdcd27c10cd390b850b\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\88dbeaa660e10fdcd27c10cd390b850b\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:9:13-79
+provider#leakcanary.internal.PlumberInstaller
+ADDED from [com.squareup.leakcanary:plumber-android:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\f2c9f0e7e47ec537f4e68803fea82ace\plumber-android-2.7\AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.squareup.leakcanary:plumber-android:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\f2c9f0e7e47ec537f4e68803fea82ace\plumber-android-2.7\AndroidManifest.xml:11:13-69
+	android:authorities
+		ADDED from [com.squareup.leakcanary:plumber-android:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\f2c9f0e7e47ec537f4e68803fea82ace\plumber-android-2.7\AndroidManifest.xml:10:13-69
+	android:exported
+		ADDED from [com.squareup.leakcanary:plumber-android:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\f2c9f0e7e47ec537f4e68803fea82ace\plumber-android-2.7\AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:plumber-android:2.7] C:\Users\Eduardo\.gradle\caches\transforms-2\files-2.1\f2c9f0e7e47ec537f4e68803fea82ace\plumber-android-2.7\AndroidManifest.xml:9:13-64

@@ -52,7 +52,14 @@ private class FavoriteDBQueriesImpl(
 ) : TransacterImpl(driver), FavoriteDBQueries {
   internal val isFavorite: MutableList<Query<*>> = copyOnWriteList()
 
+  internal val getAll: MutableList<Query<*>> = copyOnWriteList()
+
   override fun isFavorite(id: Long): Query<Long> = IsFavoriteQuery(id) { cursor ->
+    cursor.getLong(0)!!
+  }
+
+  override fun getAll(): Query<Long> = Query(1748957903, getAll, driver, "FavoriteDB.sq", "getAll",
+      "SELECT * FROM favorites") { cursor ->
     cursor.getLong(0)!!
   }
 
@@ -60,14 +67,16 @@ private class FavoriteDBQueriesImpl(
     driver.execute(-1356770343, """INSERT INTO favorites (id) VALUES (?)""", 1) {
       bindLong(1, id)
     }
-    notifyQueries(-1356770343, {database.favoriteDBQueries.isFavorite})
+    notifyQueries(-1356770343, {database.favoriteDBQueries.isFavorite +
+        database.favoriteDBQueries.getAll})
   }
 
   override fun deleteFavorite(id: Long) {
     driver.execute(-437910325, """DELETE FROM favorites WHERE id = ?""", 1) {
       bindLong(1, id)
     }
-    notifyQueries(-437910325, {database.favoriteDBQueries.isFavorite})
+    notifyQueries(-437910325, {database.favoriteDBQueries.isFavorite +
+        database.favoriteDBQueries.getAll})
   }
 
   private inner class IsFavoriteQuery<out T : Any>(

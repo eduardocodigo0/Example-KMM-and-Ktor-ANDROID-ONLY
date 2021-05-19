@@ -25,6 +25,13 @@ class PostListFragmentViewModel(application: Application): AndroidViewModel(appl
         viewModelScope.launch(Dispatchers.IO) {
             try {
                 val data = api.getPosts()
+
+                val favorites = db.getAllFavorites()
+
+                data.map {
+                    it.favorited = favorites.contains(it.id.toLong())
+                }
+
                 _postList.postValue(data)
 
             }catch (err: Exception){
@@ -44,7 +51,7 @@ class PostListFragmentViewModel(application: Application): AndroidViewModel(appl
 
     }
 
-    suspend fun isItFavorited(id: Long): Boolean{
+    fun isItFavorited(id: Long): Boolean{
             return db.isPostFavorite(id)
     }
 

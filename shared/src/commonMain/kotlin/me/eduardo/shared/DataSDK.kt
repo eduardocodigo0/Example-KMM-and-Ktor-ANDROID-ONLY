@@ -9,30 +9,35 @@ class DataSDK(databaseDriverFactory: DatabaseDriverFactory) {
     private val database = Database(databaseDriverFactory)
 
 
-    suspend fun isPostFavorite(id: Long): Boolean{
+    fun isPostFavorite(id: Long): Boolean {
         return try {
             database.isFavorite(id)
-        }catch (err: Exception){
+        } catch (err: Exception) {
             false
         }
     }
 
-    suspend fun insertFavorite(post: PostEntity): Boolean{
+    fun insertFavorite(post: PostEntity): Boolean {
         return try {
             database.setFavorite(post)
             true
-        }catch (err: Exception){
+        } catch (err: Exception) {
             false
         }
 
     }
-    suspend fun removeFavorite(post: PostEntity): Boolean{
+
+    fun removeFavorite(post: PostEntity): Boolean {
         return try {
             database.removeFavorite(post)
             true
-        }catch (err: Exception){
+        } catch (err: Exception) {
             false
         }
+    }
+
+    fun getAllFavorites(): List<Long>{
+        return database.getAll()
     }
 
 }

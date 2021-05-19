@@ -4,9 +4,7 @@ import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
-import kotlinx.coroutines.*
 import me.eduardo.androidApp.R
 import me.eduardo.androidApp.databinding.ListItemBinding
 import me.eduardo.shared.Entity.PostEntity
@@ -14,8 +12,7 @@ import me.eduardo.shared.Entity.PostEntity
 
 class PostListAdapter(
     val posts: List<PostEntity>,
-    val changeColor: (Long, ImageView) -> Unit,
-    val setFavorite: (PostEntity, ImageView) -> Unit
+    val setFavorite: (PostEntity) -> Unit
 ) : RecyclerView.Adapter<PostListHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PostListHolder {
         val view = LayoutInflater.from(parent.context)
@@ -26,7 +23,7 @@ class PostListAdapter(
 
     override fun onBindViewHolder(holder: PostListHolder, position: Int) {
 
-        holder.bind(posts[position], changeColor, setFavorite)
+        holder.bind(posts[position], setFavorite)
     }
 
     override fun getItemCount(): Int {
@@ -37,18 +34,22 @@ class PostListAdapter(
 
 class PostListHolder(item: View) : RecyclerView.ViewHolder(item) {
     private val binding = ListItemBinding.bind(item)
-
     fun bind(
         post: PostEntity,
-        changeColor: (Long, ImageView) -> Unit,
-        setFavorite: (PostEntity, ImageView) -> Unit
+        setFavorite: (PostEntity) -> Unit
     ) {
         binding.tvPostId.text = post.id.toString()
         binding.tvPostTitle.text = post.title
 
-        changeColor(post.id.toLong(), binding.ivFavorite)
 
-        binding.ivFavorite.setOnClickListener { setFavorite(post, binding.ivFavorite) }
+            if(post.favorited){
+                binding.ivFavorite.setColorFilter(Color.GREEN)
+            }else{
+                binding.ivFavorite.setColorFilter(Color.GRAY)
+            }
+
+
+        binding.ivFavorite.setOnClickListener { setFavorite(post) }
     }
 
 }

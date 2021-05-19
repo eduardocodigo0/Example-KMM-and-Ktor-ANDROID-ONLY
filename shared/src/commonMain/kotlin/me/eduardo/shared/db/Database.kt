@@ -32,5 +32,9 @@ internal class Database(databaseDriverFactory: DatabaseDriverFactory) {
 
     }
 
+    internal fun getAll(): List<Long>{
+        return dbQuery.getAll().executeAsList()
+    }
+
 
 }

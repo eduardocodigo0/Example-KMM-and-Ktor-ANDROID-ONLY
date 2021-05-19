@@ -16,4 +16,7 @@ data class PostEntity(
 
     @SerialName("body")
     val body: String
-)
+
+){
+    var favorited = false
+}
